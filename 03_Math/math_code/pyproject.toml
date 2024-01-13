@@ -1,0 +1,39 @@
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+)/
+'''
+
+[tool.ruff]
+# select target rules for current project
+select = [
+	"F",					# Pyflakes
+	"E", "W",			# pycodestyle
+	"C90",				# mccabe
+	"I",					# isort
+	"N",					# pep8-naming
+	"D",					# pydocstyle
+	"UP",					# pyupgrade
+	"PL",					# Pylint
+]
+
+# list rules which can be ignored
+ignore = ['F401']
+
+# max line length
+line-length = 88
+
+# Python version
+# Assume Python 3.10.
+target-version = "py310"
