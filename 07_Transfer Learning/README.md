@@ -16,7 +16,7 @@
 - This form of transfer learning used in deep learning is called inductive transfer. This is where the scope of possible models (model bias) is narrowed in a beneficial way by using a model fit on a different but related task.
 
 <p align="center">
-  <img src="https://machinelearningmastery.com/wp-content/uploads/2017/09/Depiction-of-Inductive-Transfer.png" >
+  <img src="https://machinelearningmastery.com/wp-content/uploads/2017/09/Depiction-of-Inductive-Transfer.png" alt="Inductive Transfer Image">
   <br>
   <i>Inductive Learning vs Inductive Transfer</i>
 </p>

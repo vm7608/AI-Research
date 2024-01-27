@@ -6,7 +6,7 @@
 
 ## **Table of Contents**
 
-- **01. Git**
+- **01. Tools**
 - **02. Python**
 - **03. Math**
 - **04. Leetcode**
@@ -14,8 +14,8 @@
 - **06. Deep Learning**
 - **07. Transfer Learning**
 - **08. Reinforcement Learning**
-- **09. GAN**
-- **10. Generative AI**
+- **09. GANs**
+- **10. LLMs**
 - **To be updated...**
 
 ## **Contributors**
